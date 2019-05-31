@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejbclient:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejbclient</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejbclient-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ejbclient:war exploded" />
+    </root>
+  </artifact>
+</component>
